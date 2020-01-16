@@ -1,0 +1,22 @@
+{
+  "name": "slack_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "forever": "^2.0.0",
+    "slack": "^11.0.2",
+    "slackbots": "^1.2.0",
+    "tiny-json-http": "^7.1.2"
+  }
+}
